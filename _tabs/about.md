@@ -31,4 +31,4 @@ PortSwigger Web Security Academy, HTB CPTS preparation.
 
 - **Email:** vuvannamnam1201@gmail.com
 - **GitHub:** [vuvannam12082005](https://github.com/vuvannam12082005)
-- **LinkedIn:** [Vũ Văn Nam](https://www.linkedin.com/in/nam-v%C5%A9-v%C4%83n-737b21394)
+- **LinkedIn:** [Vũ Văn Nam](https://www.linkedin.com/in/namvuvan-security)
