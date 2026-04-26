@@ -1,5 +1,10 @@
 - type: github
   icon: "fab fa-github"
+  url: "https://github.com/vuvannam-sec"
+
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
+  url: "https://x.com/vuvannam_sec"
 
 - type: linkedin
   icon: "fab fa-linkedin"
@@ -8,7 +13,9 @@
 - type: email
   icon: "fas fa-envelope"
   noblank: true
+  url: "mailto:vuvannam.sec@gmail.com"
 
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+  url: "/feed.xml"
