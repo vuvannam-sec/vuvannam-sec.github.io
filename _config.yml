@@ -3,29 +3,33 @@ theme: jekyll-theme-chirpy
 lang: en
 timezone: Asia/Ho_Chi_Minh
 
-title: Vũ Văn Nam
-tagline: Cybersecurity Student @ HUST | Web Security Researcher
+title: Nam Vu
+tagline: Web AppSec → LLM application security
 
 description: >-
-  Security write-ups, bug bounty reports, and web application security research
-  by Vũ Văn Nam — Cybersecurity student at Hanoi University of Science and Technology.
+  Security write-ups, bug bounty research, and notes on AI application security
+  by Nam Vu — Cyber Security student at Hanoi University of Science and Technology (HUST).
 
-url: "https://vuvannam12082005.github.io"
+url: "https://vuvannam-sec.github.io"
 baseurl: ""
 
 github:
-  username: vuvannam12082005
+  username: vuvannam-sec
+
+twitter:
+  username: vuvannam_sec
 
 social:
-  name: Vũ Văn Nam
-  email: Nam.VV235610@sis.hust.edu.vn
+  name: Nam Vu
+  email: vuvannam.sec@gmail.com
   links:
-    - https://github.com/vuvannam12082005
+    - https://github.com/vuvannam-sec
+    - https://x.com/vuvannam_sec
     - https://www.linkedin.com/in/namvuvan-security
 
 theme_mode: dark
 
-avatar: https://github.com/vuvannam12082005.png
+avatar: https://github.com/vuvannam-sec.png
 
 toc: true
 comments: false
