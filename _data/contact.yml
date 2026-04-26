@@ -10,10 +10,9 @@
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/namvuvan-security"
 
-- type: email
+- type: contact
   icon: "fas fa-envelope"
-  noblank: true
-  url: "mailto:vuvannam.sec@gmail.com"
+  url: "https://mail.google.com/mail/?view=cm&fs=1&to=vuvannam.sec@gmail.com"
 
 - type: rss
   icon: "fas fa-rss"
