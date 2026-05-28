@@ -14,7 +14,7 @@ A Stored XSS vulnerability was identified in Genspark's AI Chat feature. By craf
 | Field         | Detail                                    |
 |---------------|-------------------------------------------|
 | Type          | Stored XSS                                |
-| Severity      | Critical (CVSS 8.0+)                      |
+| Severity      | High (CVSS 8.0+)                          |
 | Product       | Genspark AI Chat                          |
 | Attack Vector | User prompt → AI output → DOM rendering   |
 | Status        | Fixed                                     |
