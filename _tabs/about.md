@@ -6,7 +6,7 @@ order: 4
 
 ## About
 
-I'm **Vũ Văn Nam** (Nam Vu), a cybersecurity student at Hanoi University of Science and Technology. I currently work at NTQ.
+I'm **Vũ Văn Nam** (Nam Vu), a Security Engineer at NTQ since July 2026 and a cybersecurity student at Hanoi University of Science and Technology.
 
 I started with web application security and practical vulnerability research. I'm now exploring how AI and automation can help people investigate security problems, reduce repetitive work, and improve workflows across different security domains. I'm continuing to build the technical foundations needed to understand and verify the results.
 
@@ -26,7 +26,14 @@ I started with web application security and practical vulnerability research. I'
 
 - [AI-Based Security Enhancements](https://github.com/vuvannam-sec/AI-Based-Security-Enhancements) — a Linux host-monitoring research prototype.
 - [VPN Traffic Detection](https://github.com/vuvannam-sec/vpn-detector-traffic-analysis) — an experimental network-flow classification study.
+- [RubyGYM](https://github.com/vuvannam-sec/rubygym) — an AI-assisted academic web application with security checks in CI/CD.
 - [Security Write-ups](https://github.com/vuvannam-sec/security-writeups) — public research notes and vulnerability reports.
+
+## Education and training
+
+- Cyber Security, Hanoi University of Science and Technology.
+- CyberJutsu Web Pentest 101 and 102.
+- PortSwigger Web Security Academy (in progress).
 
 ## Contact
 

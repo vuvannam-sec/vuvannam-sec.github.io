@@ -13,6 +13,6 @@ The homepage introduces my interests, public research, and selected projects. Ex
 - `_posts/` — published research write-ups.
 - `_config.yml` — blog title, contact details, and Jekyll settings.
 
-To show the time at NTQ automatically, replace the empty `data-start-date` in `index.html` with the verified start date in `YYYY-MM-DD` format, for example `data-start-date="2026-07-15"`. The date above is an example only. The display counts completed months and stays hidden when no valid date is provided. Update the employment description when the role changes.
+The NTQ tenure in `index.html` uses `data-start-date="2026-07-01"`. The display counts completed months in the visitor's browser and stays hidden when no valid date is provided. Update the date and employment description if the role changes.
 
 To preview locally, install Ruby and Bundler, then run `bundle install` and `bundle exec jekyll serve`. GitHub Actions builds and deploys changes pushed to `main`.
