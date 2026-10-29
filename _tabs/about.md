@@ -14,6 +14,7 @@ I started with web application security and practical vulnerability research. I'
 
 - [Genspark AI Chat: stored XSS through AI-generated output](/posts/genspark-stored-xss/) — reported, disclosed, and fixed.
 - [Cốc Cốc Dictionary & Translate extension: DOM-based XSS](/posts/coccoc-dom-xss/) — reported, disclosed, and fixed.
+- Received a thank-you from GitLab on [HackerOne](https://hackerone.com/vuvannam-sec).
 
 ## Areas of interest
 
@@ -37,4 +38,4 @@ I started with web application security and practical vulnerability research. I'
 
 ## Contact
 
-[Email](mailto:vuvannam.sec@gmail.com) · [GitHub](https://github.com/vuvannam-sec) · [LinkedIn](https://www.linkedin.com/in/namvuvan-security) · [HackerOne](https://hackerone.com/vuvannam1208) · [Huntr](https://huntr.com/users/vuvannam1208)
+[Email](mailto:vuvannam.sec@gmail.com) · [GitHub](https://github.com/vuvannam-sec) · [LinkedIn](https://www.linkedin.com/in/namvuvan-security) · [HackerOne](https://hackerone.com/vuvannam-sec)
