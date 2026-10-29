@@ -4,48 +4,30 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## About Me
+## About
 
-I'm a third-year Cybersecurity student at **Hanoi University of Science and Technology (HUST)**, transitioning from web application security into **AI / LLM application security**.
+I'm **Vũ Văn Nam** (Nam Vu), a cybersecurity student at Hanoi University of Science and Technology. I currently work at NTQ.
 
-I find vulnerabilities in web apps and AI systems, then write about them.
+I started with web application security and practical vulnerability research. I'm now exploring how AI and automation can help people investigate security problems, reduce repetitive work, and improve workflows across different security domains. I'm continuing to build the technical foundations needed to understand and verify the results.
 
-## Security Research
+## Selected research
 
-| Target | Vulnerability | Severity | Status |
-|--------|---------------|----------|--------|
-| Genspark AI Chat | Wormable Stored XSS via Unsanitized AI Output | Critical | Fixed |
-| Cốc Cốc Browser Extension | DOM-based XSS in "Dictionary & Translate" | Medium | Fixed |
+- [Genspark AI Chat: stored XSS through AI-generated output](/posts/genspark-stored-xss/) — reported, disclosed, and fixed.
+- [Cốc Cốc Dictionary & Translate extension: DOM-based XSS](/posts/coccoc-dom-xss/) — reported, disclosed, and fixed.
 
-Active bug bounty hunter on **HackerOne** and **Huntr**.
+## Areas of interest
 
-## Focus Areas
+- AI-assisted security research and workflow automation
+- Web application security and responsible disclosure
+- Security of LLM applications, agents, tools, and MCP integrations
+- Practical testing, analysis, and clear technical reporting
 
-- **Web Application Security** — XSS, IDOR, SSRF, business logic flaws, source code review
-- **AI / LLM Application Security** — prompt injection, indirect injection, agent hijacking, MCP server security
-- **AI-Augmented Security Research** — using LLM pipelines to scale vulnerability discovery
+## Projects
 
-## Approach
-
-I treat AI systems like web apps — same attacker mindset, applied to a new attack surface. Most AI app vulnerabilities I've seen are classic web bugs (XSS, SSRF, IDOR) wearing AI clothing. Finding them requires both foundations.
-
-## Tools
-
-Burp Suite, Browser DevTools, Subfinder, httpx, Nuclei, ffuf, Semgrep, Docker.
-
-## Currently Learning
-
-- PortSwigger Web Security Academy (selective: access control, SSRF, business logic, SSTI, OAuth)
-- AI red teaming methodologies (OWASP LLM Top 10, MITRE ATLAS)
-- MCP (Model Context Protocol) server security
+- [AI-Based Security Enhancements](https://github.com/vuvannam-sec/AI-Based-Security-Enhancements) — a Linux host-monitoring research prototype.
+- [VPN Traffic Detection](https://github.com/vuvannam-sec/vpn-detector-traffic-analysis) — an experimental network-flow classification study.
+- [Security Write-ups](https://github.com/vuvannam-sec/security-writeups) — public research notes and vulnerability reports.
 
 ## Contact
 
-- 📧 **Email**: vuvannam.sec@gmail.com
-- 🐦 **X/Twitter**: [@vuvannam_sec](https://x.com/vuvannam_sec)
-- 💻 **GitHub**: [@vuvannam-sec](https://github.com/vuvannam-sec)
-- 💼 **LinkedIn**: [namvuvan-security](https://www.linkedin.com/in/namvuvan-security)
-
----
-
-*Currently looking for: AI security research collaborations, bug bounty challenges, and internship opportunities (Summer 2026).*
+[Email](mailto:vuvannam.sec@gmail.com) · [GitHub](https://github.com/vuvannam-sec) · [LinkedIn](https://www.linkedin.com/in/namvuvan-security) · [HackerOne](https://hackerone.com/vuvannam1208) · [Huntr](https://huntr.com/users/vuvannam1208)

@@ -4,11 +4,11 @@ lang: en
 timezone: Asia/Ho_Chi_Minh
 
 title: Nam Vu
-tagline: Web AppSec → LLM application security
+tagline: Security research & AI-assisted workflows
 
 description: >-
-  Security write-ups, bug bounty research, and notes on AI application security
-  by Nam Vu — Cyber Security student at Hanoi University of Science and Technology (HUST).
+  Security research, responsible disclosure, and AI-assisted security workflows
+  by Nam Vu, a cybersecurity student at Hanoi University of Science and Technology.
 
 url: "https://vuvannam-sec.github.io"
 baseurl: ""
@@ -28,12 +28,9 @@ social:
     - https://www.linkedin.com/in/namvuvan-security
 
 theme_mode: dark
-
 avatar: https://github.com/vuvannam-sec.png
-
 toc: true
 comments: false
-
 paginate: 10
 
 defaults:

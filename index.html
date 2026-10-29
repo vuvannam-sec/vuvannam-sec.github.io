@@ -1,4 +1,88 @@
 ---
-layout: home
-# Index page
+layout: null
 ---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101411">
+  <meta name="description" content="Nam Vu is a cybersecurity student and security researcher exploring AI-assisted security workflows, application security, and responsible disclosure.">
+  <meta property="og:title" content="Nam Vu — Security Research &amp; AI">
+  <meta property="og:description" content="Security research, AI-assisted workflows, and the work behind them.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vuvannam-sec.github.io/">
+  <link rel="canonical" href="https://vuvannam-sec.github.io/">
+  <link rel="stylesheet" href="/assets/css/portfolio.css">
+  <script src="/assets/js/portfolio.js" defer></script>
+  <title>Nam Vu — Security Research &amp; AI</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Nam Vu, home"><span class="brand-mark">nv<span>.</span></span><span class="brand-label">NAM VU<br>SECURITY &amp; AI</span></a>
+      <nav class="navigation" aria-label="Main navigation">
+        <a href="#focus">Focus</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#about">About</a><a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="hero-title">
+      <div class="hero-main">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> SECURITY RESEARCH <span class="slash">/</span> AI-ASSISTED WORKFLOWS</p>
+        <h1 id="hero-title">Security thinking.<br><em>Smarter workflows.</em></h1>
+        <p class="hero-copy">I'm <strong>Vũ Văn Nam</strong> (Nam Vu), a cybersecurity student and security researcher exploring how AI can make security work more effective—from investigation to automation.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#research">Explore my work <span aria-hidden="true">↗</span></a><a class="button button-text" href="https://github.com/vuvannam-sec">GitHub profile <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <aside class="hero-aside" aria-label="At a glance">
+        <div class="aside-top"><span>AT A GLANCE</span><span>01 — 03</span></div>
+        <div class="signal-graphic" aria-hidden="true"><div class="signal-ring ring-one"></div><div class="signal-ring ring-two"></div><div class="signal-ring ring-three"></div><div class="signal-core"><span>SECURITY</span><b>×</b><span>AI</span></div><span class="signal-node node-one"></span><span class="signal-node node-two"></span><span class="signal-node node-three"></span></div>
+        <dl class="quick-facts">
+          <div><dt>CURRENTLY</dt><dd>NTQ <span class="fact-muted">· Current</span><span class="tenure" data-start-date="" hidden></span></dd></div>
+          <div><dt>EDUCATION</dt><dd>Hanoi University of<br>Science and Technology</dd></div>
+          <div><dt>BASED IN</dt><dd>Vietnam</dd></div>
+        </dl>
+      </aside>
+      <div class="hero-bottom"><span>SECURITY FOUNDATIONS <span aria-hidden="true">↗</span> AI-AUGMENTED PRACTICE</span><a href="#focus">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="section container" id="focus" aria-labelledby="focus-title">
+      <div class="section-heading"><div><p class="eyebrow section-index">01 / FOCUS</p><h2 id="focus-title">The work I'm<br><em>moving toward.</em></h2></div><p class="section-intro">Combining a hands-on security mindset with a practical interest in how AI can support better, more efficient work.</p></div>
+      <div class="focus-grid">
+        <article class="focus-card"><span class="card-index">01 <span>↗</span></span><h3>AI for security</h3><p>Exploring ways to use AI and automation in security analysis, research, and repetitive workflows—with room for human judgment and verification.</p><div class="tag-list"><span>AI-ASSISTED ANALYSIS</span><span>AUTOMATION</span></div></article>
+        <article class="focus-card"><span class="card-index">02 <span>↗</span></span><h3>Application security</h3><p>Studying how real web applications fail, from untrusted input and access control to the practical details of testing and reporting.</p><div class="tag-list"><span>WEB SECURITY</span><span>BUG BOUNTY</span></div></article>
+        <article class="focus-card"><span class="card-index">03 <span>↗</span></span><h3>AI system security</h3><p>Learning about the attack surfaces around LLM applications, agents, tools, and the boundaries between them.</p><div class="tag-list"><span>LLM APPLICATIONS</span><span>AGENTS &amp; MCP</span></div></article>
+      </div>
+    </section>
+
+    <section class="section research-section" id="research" aria-labelledby="research-title"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow section-index">02 / SELECTED RESEARCH</p><h2 id="research-title">Findings with<br><em>real-world context.</em></h2></div><p class="section-intro">A closer look at publicly disclosed findings, how they worked, and what was learned from reporting them.</p></div>
+      <div class="research-list">
+        <a class="research-item" href="/posts/genspark-stored-xss/"><div class="research-number">01 / 2026</div><div class="research-content"><div class="research-meta"><span>AI APPLICATION SECURITY</span><span class="mini-dot"></span><span>STORED XSS</span></div><h3>Genspark AI Chat</h3><p>Investigating stored cross-site scripting through unsanitized AI-generated output in shared conversations.</p><div class="research-bottom"><span class="state"><span class="status-dot"></span> DISCLOSED · FIXED</span><span class="read-link">Read the write-up <span aria-hidden="true">↗</span></span></div></div><span class="research-arrow" aria-hidden="true">↗</span></a>
+        <a class="research-item" href="/posts/coccoc-dom-xss/"><div class="research-number">02 / 2026</div><div class="research-content"><div class="research-meta"><span>BROWSER SECURITY</span><span class="mini-dot"></span><span>DOM-BASED XSS</span></div><h3>Cốc Cốc browser extension</h3><p>Tracing a DOM-based XSS issue in a dictionary and translation extension back to unsafe handling of selected text.</p><div class="research-bottom"><span class="state"><span class="status-dot"></span> DISCLOSED · FIXED</span><span class="read-link">Read the write-up <span aria-hidden="true">↗</span></span></div></div><span class="research-arrow" aria-hidden="true">↗</span></a>
+      </div>
+      <a class="section-link" href="/archives/">Browse the writing archive <span aria-hidden="true">↗</span></a>
+    </div></section>
+
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow section-index">03 / SELECTED PROJECTS</p><h2 id="projects-title">Learning by<br><em>building.</em></h2></div><p class="section-intro">Experiments and public notes that bring security, data, and practical investigation together.</p></div>
+      <div class="project-list">
+        <a class="project-row" href="https://github.com/vuvannam-sec/AI-Based-Security-Enhancements"><span class="project-no">01</span><div><h3>AI-Based Security Enhancements</h3><p>A Linux host-monitoring prototype combining telemetry, ML, and rule-based signals.</p></div><span class="project-type">RESEARCH PROTOTYPE</span><span class="project-arrow" aria-hidden="true">↗</span></a>
+        <a class="project-row" href="https://github.com/vuvannam-sec/vpn-detector-traffic-analysis"><span class="project-no">02</span><div><h3>VPN Traffic Detection</h3><p>An experimental study of classifying VPN and non-VPN flows using network statistics.</p></div><span class="project-type">TRAFFIC ANALYSIS</span><span class="project-arrow" aria-hidden="true">↗</span></a>
+        <a class="project-row" href="https://github.com/vuvannam-sec/security-writeups"><span class="project-no">03</span><div><h3>Security Write-ups</h3><p>Public notes and vulnerability reports documenting the details behind security findings.</p></div><span class="project-type">RESEARCH NOTES</span><span class="project-arrow" aria-hidden="true">↗</span></a>
+      </div>
+      <a class="section-link" href="https://github.com/vuvannam-sec?tab=repositories">More on GitHub <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title"><div class="container about-layout">
+      <div><p class="eyebrow section-index">04 / ABOUT</p><h2 id="about-title">Curious about<br><em>how things work.</em></h2></div>
+      <div class="about-copy"><p>I'm a cybersecurity student at Hanoi University of Science and Technology and currently work at NTQ.</p><p>My interests began with web security and vulnerability research. I'm now also exploring how AI and automation can support security work across different domains, while continuing to build the technical foundations needed to understand and verify the results.</p><a class="section-link" href="/about/">More about me <span aria-hidden="true">↗</span></a></div>
+    </div></section>
+
+    <section class="section contact-section container" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow section-index">05 / CONTACT</p><h2 id="contact-title">Have something<br><em>to explore?</em></h2><p>For security research, ideas, or a thoughtful conversation, feel free to reach out.</p><a class="button button-primary" href="mailto:vuvannam.sec@gmail.com">Send me an email <span aria-hidden="true">↗</span></a></div><div class="contact-links"><span class="contact-label">FIND ME ELSEWHERE</span><a href="https://github.com/vuvannam-sec">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/namvuvan-security">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://hackerone.com/vuvannam1208">HackerOne <span aria-hidden="true">↗</span></a><a href="https://huntr.com/users/vuvannam1208">Huntr <span aria-hidden="true">↗</span></a><a href="https://x.com/vuvannam_sec">X / Twitter <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer><div class="container footer-inner"><span>© <span id="year">2026</span> VŨ VĂN NAM</span><span>SECURITY RESEARCH <span class="slash">/</span> AI <span class="slash">/</span> CONTINUOUS LEARNING</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+</body>
+</html>
