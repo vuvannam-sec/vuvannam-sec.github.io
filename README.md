@@ -8,6 +8,7 @@ The homepage introduces my research, public projects and current direction. Publ
 
 - `index.html` — homepage content, research index and project descriptions.
 - `assets/css/portfolio.css` — homepage layout, typography and responsive styles.
+- `assets/css/reading.css` — typography and colors on the blog's reading pages.
 - `assets/js/portfolio.js` — the finding walkthrough, rendering demonstration and employment tenure.
 - `assets/fonts/` — Be Vietnam Pro fonts and their SIL Open Font License.
 - `assets/img/profile-avatar.png` — the illustrated avatar used in the About section.

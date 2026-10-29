@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/assets/fonts/BeVietnamPro-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Be Vietnam Pro";
+  src: url("/assets/fonts/BeVietnamPro-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+html[data-mode="light"], :root {
+  --main-bg: #f0f2f4;
+  --sidebar-bg: #e1e7ee;
+  --card-bg: #fafbfd;
+  --text-color: #344254;
+  --heading-color: #17212c;
+  --link-color: #1747ca;
+  --text-muted-color: #596b81;
+}
+body {
+  font-family: "Be Vietnam Pro", "Segoe UI", sans-serif;
+  background: #f0f2f4;
+  color: #344254;
+}
+#sidebar { background: #e1e7ee; }
+#sidebar .site-title { color: #17212c; font-weight: 700; }
+#sidebar .site-subtitle { color: #53657a; line-height: 1.7; }
+#topbar-wrapper { background: rgba(240, 242, 244, .96); }
+main h1 { font-family: inherit; font-size: clamp(1.9rem, 3vw, 2.7rem); line-height: 1.28; letter-spacing: -.045em; color: #17212c; }
+.content { font-family: inherit; font-size: 17px; line-height: 1.9; }
+.content p, .content li { line-height: 1.9; }
+.content h2, .content h3 { font-family: inherit; color: #17212c; letter-spacing: -.025em; }
+.content h2 { font-size: 1.65rem; line-height: 1.35; margin-top: 2.3rem; }
+.content h3 { font-size: 1.25rem; line-height: 1.4; }
+.content a { color: #1747ca; }
+.content pre { font-size: 13px; line-height: 1.7; }
+.content table { font-size: 14px; line-height: 1.7; }
+.content table thead { background: #e0e8f4; color: #243b59; }
+.post-meta { font-size: 13px; }
+@media (max-width: 760px) {
+  .content { font-size: 16px; }
+  .content h2 { font-size: 1.45rem; }
+}
