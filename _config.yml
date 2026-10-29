@@ -33,6 +33,11 @@ toc: true
 comments: false
 paginate: 10
 
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
 defaults:
   - scope:
       path: ""
@@ -42,6 +47,12 @@ defaults:
       comments: false
       toc: true
       permalink: /posts/:title/
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
 
 jekyll-archives:
   enabled: [categories, tags]
